@@ -6,21 +6,38 @@
 
 
 @inproceedings{jamal2021adaptive,
+  abbr={AdaptBehaviorTree},
   title={Adaptive maneuver planning for autonomous vehicles using behavior tree on apollo platform},
   author={Jamal, Mais and Panov, Aleksandr},
-  booktitle={Artificial Intelligence XXXVIII: 41st SGAI International Conference on Artificial Intelligence, AI 2021, Cambridge, UK, December 14--16, 2021, Proceedings 41},
+  abstract={In safety-critical systems such as autonomous driving systems, behavior planning is a significant challenge. The presence of numerous dynamic obstacles makes the driving environment unpredictable. The planning algorithm should be safe, reactive, and adaptable to environmental changes. The paper presents an adaptive maneuver planning algorithm based on an evolving behavior tree created with genetic programming. In addition, we make a technical contribution to the Baidu Apollo autonomous driving platform, allowing the platform to test and develop overtaking maneuver planning algorithms.},
+  booktitle={Artificial Intelligence XXXVIII},
+  publisher="Springer International Publishing",
+  address="Cham",
+  volume={13101},
   pages={327--340},
   year={2021},
-  organization={Springer}
+  publisher={Springer, Cham},
+  isbn="978-3-030-91100-3",
+  doi={10.1007/978-3-030-91100-3_26},
+  url={https://link.springer.com/chapter/10.1007/978-3-030-91100-3_26}
 }
 
-@inproceedings{gorbov2022learning,
-  title={Learning adaptive parking maneuvers for self-driving cars},
-  author={Gorbov, Gregory and Jamal, Mais and Panov, Aleksandr I},
-  booktitle={International Conference on Intelligent Information Technologies for Industry},
-  pages={283--292},
-  year={2022},
-  organization={Springer}
+@InProceedings{10.1007/978-3-031-19620-1_27,
+author="Gorbov, Gregory
+and Jamal, Mais
+and Panov, Aleksandr I.",
+editor="Kovalev, Sergey
+and Sukhanov, Andrey
+and Akperov, Imran
+and Ozdemir, Sebnem",
+title="Learning Adaptive Parking Maneuvers for Self-driving Cars",
+booktitle="Proceedings of the Sixth International Scientific Conference ``Intelligent Information Technologies for Industry'' (IITI'22)",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="283--292",
+abstract="This paper addresses the autonomous parking for a vehicle in environments with static and dynamic obstacles. Although parking maneuvering has reached the level of fully automated valet parking, there are still many challenges to realize the parking motion planning in the presence of dynamic obstacles. One of the most famous autonomous driving platforms is the Baidu Apollo platform. In the Apollo platform, this problem is solved using the classic method hybrid A*. However, this method has two main downsides. Firstly, it generates in some parking scenarios, trajectories that consist of many partitions with different gear types and sizes. Such trajectories are intractable by a self-driving car when testing the Apollo planner on more realistic data coming from a simulator such as SVL. Secondly, the built-in algorithm does not have the ability to interact with dynamic obstacles, which might lead to a collision in some critical parking scenarios. To overcome these issues, we proposed a method based on reinforcement learning, which uses the RL-policy (from POLAMP) allowing us to take into account the kinematic constraints of the vehicle, static and dynamic obstacles. The proposed method was fully integrated into the Apollo platform with developed Cyber RT nodes, which were used for publishing the parking trajectory from our algorithm to the SVL simulator through a ROS/Cyber bridge. The final model demonstrates transferability to the previously unseen experimental environments and flexibility with respect to built-in hybrid A*.",
+isbn="978-3-031-19620-1"
 }
 
 @article{jamal2024ffstreams,
