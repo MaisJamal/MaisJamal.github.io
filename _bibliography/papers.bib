@@ -19,6 +19,7 @@
   publisher={Springer, Cham},
   isbn="978-3-030-91100-3",
   doi={10.1007/978-3-030-91100-3_26},
+  dimensions = {true},
   url={https://link.springer.com/chapter/10.1007/978-3-030-91100-3_26}
 }
 
@@ -30,6 +31,7 @@ editor="Kovalev, Sergey
 and Sukhanov, Andrey
 and Akperov, Imran
 and Ozdemir, Sebnem",
+dimensions = {true},
 title="Learning Adaptive Parking Maneuvers for Self-driving Cars",
 booktitle="Proceedings of the Sixth International Scientific Conference ``Intelligent Information Technologies for Industry'' (IITI'22)",
 year="2023",
@@ -37,31 +39,57 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="283--292",
 abstract="This paper addresses the autonomous parking for a vehicle in environments with static and dynamic obstacles. Although parking maneuvering has reached the level of fully automated valet parking, there are still many challenges to realize the parking motion planning in the presence of dynamic obstacles. One of the most famous autonomous driving platforms is the Baidu Apollo platform. In the Apollo platform, this problem is solved using the classic method hybrid A*. However, this method has two main downsides. Firstly, it generates in some parking scenarios, trajectories that consist of many partitions with different gear types and sizes. Such trajectories are intractable by a self-driving car when testing the Apollo planner on more realistic data coming from a simulator such as SVL. Secondly, the built-in algorithm does not have the ability to interact with dynamic obstacles, which might lead to a collision in some critical parking scenarios. To overcome these issues, we proposed a method based on reinforcement learning, which uses the RL-policy (from POLAMP) allowing us to take into account the kinematic constraints of the vehicle, static and dynamic obstacles. The proposed method was fully integrated into the Apollo platform with developed Cyber RT nodes, which were used for publishing the parking trajectory from our algorithm to the SVL simulator through a ROS/Cyber bridge. The final model demonstrates transferability to the previously unseen experimental environments and flexibility with respect to built-in hybrid A*.",
-isbn="978-3-031-19620-1"
+isbn="978-3-031-19620-1",
+url={https://link.springer.com/chapter/10.1007/978-3-031-19620-1_27}
 }
 
-@article{jamal2024ffstreams,
-  title={FFStreams: Fast Search With Streams for Autonomous Maneuver Planning},
-  author={Jamal, Mais and Panov, Aleksandr},
-  journal={IEEE Robotics and Automation Letters},
-  year={2024},
-  publisher={IEEE}
+@article{Jamal2024,
+  abbr={FFStreams_RAL},
+  dimensions = {true},
+  title = {FFStreams: Fast Search with Streams for Autonomous Maneuver Planning},
+  volume = {9},
+  url = {https://ieeexplore.ieee.org/document/10552884},
+  doi = {10.1109/LRA.2024.3412633},
+  pages = {6752--6759},
+  number = {7},
+  journal = {IEEE Robotics and Automation Letters},
+  author = {Jamal, Mais and Panov, Aleksandr},
+  year = {2024}
 }
+
 
 @article{jamal2024maneuver,
-  title={Maneuver Decision-Making with Trajectory Streams Prediction for Autonomous Vehicles},
-  author={Jamal, Mais and Panov, Aleksandr},
-  journal={arXiv preprint arXiv:2409.10165},
-  year={2024}
+  abbr={FFStreams++_Prediction},
+  title={Maneuver Decision-Making with Trajectory Streams Prediction for Autonomous Vehicles}, 
+  author={Mais Jamal and Aleksandr Panov},
+  abstract={Decision-making, motion planning, and trajectory prediction are crucial in autonomous driving systems. By accurately forecasting the movements of other road users, the decision-making capabilities of the autonomous system can be enhanced, making it more effective in responding to dynamic and unpredictable environments and more adaptive to diverse road scenarios. This paper presents the FFStreams++ approach for decision-making and motion planning of different maneuvers, including unprotected left turn, overtaking, and keep-lane. FFStreams++ is a combination of sampling-based and search-based approaches, where iteratively new sampled trajectories for different maneuvers are generated and optimized, and afterward, a heuristic search planner is called, searching for an optimal plan. We model the autonomous diving system in the Planning Domain Definition Language (PDDL) and search for the optimal plan using a heuristic Fast-Forward planner. In this approach, the initial state of the problem is modified iteratively through streams, which will generate maneuver-specific trajectory candidates, increasing the iterating level until an optimal plan is found. FFStreams++ integrates a query-connected network model for predicting possible future trajectories for each surrounding obstacle along with their probabilities. The proposed approach was tested on the CommonRoad simulation framework. We use a collection of randomly generated driving scenarios for overtaking and unprotected left turns at intersections to evaluate the FFStreams++ planner. The test results confirmed that the proposed approach can effectively execute various maneuvers to ensure safety and reduce the risk of collisions with nearby traffic agents.},
+  year={2024},
+  eprint={2409.10165},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2409.10165}, 
+  dimensions = {true}
 }
 
-@incollection{hatem2018low,
-  title={Low-cost quadcopter indoor positioning system based on image processing and neural networks},
-  author={Hatem, I and Jamal, M and Murhij, Y and Ali, Z},
-  booktitle={Mechanism, Machine, Robotics and Mechatronics Sciences},
-  pages={243--257},
-  year={2018},
-  publisher={Springer}
+@InProceedings{10.1007/978-3-319-89911-4_18,
+abbr={Quadcopter},
+author="Hatem, I.
+and Jamal, M.
+and Murhij, Y.
+and Ali, Z.",
+editor="Rizk, Rany
+and Awad, Mariette",
+title="Low-Cost Quadcopter Indoor Positioning System Based on Image Processing and Neural Networks",
+booktitle="Mechanism, Machine, Robotics and Mechatronics Sciences",
+year="2019",
+dimensions = {true},
+publisher="Springer International Publishing",
+address="Cham",
+pages="243--257",
+abstract="Quadcopter positioning in indoor environments is considered a major problem because of the difficulty of estimating a reliable position. Moreover, the positioning system is expected to work in real-time and to be accurate and cost-effective. In this paper, a combination of image processing techniques and neural networks is proposed to obtain the quadcopter position along the X, Y and Z coordinates. Three neural networks were used, one for each dimension. The proposed neural network based technique estimates the quadcopter target position along X, Y, and Z from two image points extracted from images captured by two low-cost IP cameras. The offered positioning system has been implemented on a locally designed and assembled quadcopter. Hovering experiments on the quadcopter have been performed in an indoor lab based environment. The results show that combining image processing techniques with neural network-based method achieves a low-cost accurate positioning system within a precision of a few centimeters with a frequency of 16 Hz.",
+isbn="978-3-319-89911-4",
+url={https://link.springer.com/chapter/10.1007/978-3-319-89911-4_18},
+doi={10.1007/978-3-319-89911-4_18}
 }
 
 
