@@ -6,7 +6,7 @@ subtitle: <a href='#'>Behavior Planning Engineer for Autonomous Systems</a>, Mos
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Dr.Sc. in AI and ML</p>
