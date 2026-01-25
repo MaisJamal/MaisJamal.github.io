@@ -210,6 +210,8 @@ exclude:
   - assets/jupyter/blog.ipynb
   - _news/announcement_x.md
   - _news/announcement_y.md
+  - _pages/books.md
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
