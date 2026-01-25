@@ -27,7 +27,7 @@ announcements:
 
 Behavior Planning Engineer with a Ph.D. in Artificial Intelligence and Machine Learning, specializing in `adaptive planning` and `decision-making` for `autonomous systems`. Experienced in behavior trees, reinforcement learning, and heuristic search for intelligent maneuver planning.
 
-Developed and integrated advanced planning algorithms on platforms such as `Apollo Auto` and `CommonRoad`. Committed to bridging cutting-edge research with real-world deployment to advance safe and reliable autonomous driving technologies.
+Developed and integrated advanced planning algorithms on platforms such as `Apollo Auto` and `CommonRoad`. Committed to bridging cutting-edge research with real-world deployment to advance safe and reliable autonomous driving technologies....
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
