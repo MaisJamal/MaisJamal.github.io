@@ -1,7 +1,6 @@
 {
   "basics": {
     "name": "Mais Jamal",
-    "label": "Scientist",
     "image": "",
     "email": "mayssjamal@gmail.com",
     "url": "https://maisjamal.github.io/"
@@ -13,11 +12,9 @@
       "url": "https://mipt.ru/",
       "area": "Artificial Intelligence and Machine Learning",
       "studyType": "PhD",
-      "startDate": "2020-01",
+      "startDate": "2020-09",
       "endDate": "2024-12",
-      "courses": [
-        "Dissertation: Development and research of algorithms and methods of adaptive maneuver planning of an autonomous vehicle"
-      ]
+      "courses": ["Dissertation: Development and research of algorithms and methods of adaptive maneuver planning of an autonomous vehicle"]
     },
     {
       "institution": "Bauman Moscow State Technical University",
@@ -25,20 +22,18 @@
       "url": "https://bmstu.ru/",
       "area": "Mechatronics and Robotic Systems",
       "studyType": "MSc",
-      "startDate": "2018-01",
-      "endDate": "2020-12",
-      "courses": [
-        "Thesis: Convolutional neural networks for manipulator control and object grasping"
-      ]
+      "startDate": "2018-09",
+      "endDate": "2020-07",
+      "courses": ["Thesis: Convolutional neural networks for manipulator control and object grasping"]
     },
     {
       "institution": "Tishreen University (now Latakia University)",
       "location": "Latakia, Syria",
-      "url": "https://tishreen.edu.sy/", 
+      "url": "https://tishreen.edu.sy/",
       "area": "Mechatronics, Robotics, and Automation Engineering",
       "studyType": "BSc",
-      "startDate": "2012-01",
-      "endDate": "2017-12"
+      "startDate": "2012-09",
+      "endDate": "2017-07"
     }
   ],
   "work": [
@@ -57,7 +52,7 @@
       "institution": "Center for Cognitive Modeling, Moscow Institute of Physics and Technology",
       "startDate": "2020-09",
       "endDate": "2022-12",
-      "highlights":[
+      "highlights": [
         "Conducted doctoral research on autonomous driving systems, specializing in the Apollo architecture, simulation environments, and HD mapping tools.",
         "Developed and integrated learning-based behavior tree and reinforcement learning algorithms for adaptive overtaking and parking, contributing to peer-reviewed publications."
       ]
@@ -67,86 +62,62 @@
       "company": "Freelance / Remote",
       "startDate": "2017-04",
       "endDate": "2022-12",
-      "summary": "Managed distributed multilingual voice-over teams delivering media and educational content across five languages.\nDesigned and scaled quality-assurance workflows to ensure consistency, efficiency, and delivery reliability in remote production environments."
+      "highlights": [
+        "Managed distributed multilingual voice-over teams delivering media and educational content across five languages.\nDesigned and scaled quality-assurance workflows to ensure consistency, efficiency, and delivery reliability in remote production environments."
+      ]
     }
   ],
   "skills": [
-  {
-    "name": "Programming Languages & Middleware",
-    "level": "Advanced",
-    "icon": "fa-solid fa-code",
-    "keywords": [
-      "Python",
-      "C/C++",
-      "MATLAB",
-      "Simulink",
-      "CUDA",
-      "ROS2",
-      "ROS",
-      "CyberRT"
-    ]
-  },
-  {
-    "name": "Autonomous Driving Platforms",
-    "level": "Advanced",
-    "icon": "fa-solid fa-car",
-    "keywords": [
-      "Apollo Auto"
-    ]
-  },
-  {
-    "name": "Simulation & Benchmarking Tools",
-    "level": "Advanced",
-    "icon": "fa-solid fa-cubes",
-    "keywords": [
-      "LG SVL",
-      "CARLA",
-      "CommonRoad"
-    ]
-  },
-  {
-    "name": "Machine Learning & Computer Vision Frameworks",
-    "level": "Advanced",
-    "icon": "fa-solid fa-brain",
-    "keywords": [
-      "PyTorch",
-      "OpenCV"
-    ]
-  },
-  {
-    "name": "Scenario Design & HD Mapping",
-    "level": "Intermediate",
-    "icon": "fa-solid fa-map",
-    "keywords": [
-      "RoadRunner"
-    ]
-  },
-  {
-    "name": "Software Development & Engineering Practices",
-    "level": "Advanced",
-    "icon": "fa-solid fa-tools",
-    "keywords": [
-      "Git",
-      "GitHub",
-      "Version Control",
-      "Debugging",
-      "Repository Maintenance"
-    ]
-  },
-  {
-    "name": "Motion Planning & Optimization",
-    "level": "Advanced",
-    "icon": "fa-solid fa-route",
-    "keywords": [
-      "Task and Motion Planning (TAMP)",
-      "Behavior Trees",
-      "Reinforcement Learning",
-      "Path Planning",
-      "Trajectory Optimization",
-      "Frenet Coordinate System",
-      "Heuristic Search"
-    ]
-  }
+    {
+      "name": "Programming Languages & Middleware",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C/C++", "MATLAB", "Simulink", "CUDA", "ROS2", "ROS", "CyberRT"]
+    },
+    {
+      "name": "Autonomous Driving Platforms",
+      "level": "Advanced",
+      "icon": "fa-solid fa-car",
+      "keywords": ["Apollo Auto"]
+    },
+    {
+      "name": "Simulation & Benchmarking Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-cubes",
+      "keywords": ["LG SVL", "CARLA", "CommonRoad"]
+    },
+    {
+      "name": "Machine Learning & Computer Vision Frameworks",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch", "OpenCV"]
+    },
+    {
+      "name": "Scenario Design & HD Mapping",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-map",
+      "keywords": ["RoadRunner"]
+    },
+    {
+      "name": "Software Development & Engineering Practices",
+      "level": "Advanced",
+      "icon": "fa-solid fa-tools",
+      "keywords": ["Git", "GitHub", "Version Control", "Debugging", "Repository Maintenance"]
+    },
+    {
+      "name": "Motion Planning & Optimization",
+      "level": "Advanced",
+      "icon": "fa-solid fa-route",
+      "keywords": [
+        "Task and Motion Planning (TAMP)",
+        "Behavior Trees",
+        "Reinforcement Learning",
+        "Path Planning",
+        "Trajectory Optimization",
+        "Frenet Coordinate System",
+        "Heuristic Search"
+      ]
+    }
   ],
   "languages": [
     {
