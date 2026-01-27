@@ -90,10 +90,10 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          set -euxo pipefail
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
-          set -euxo pipefail
           bundle exec jekyll build --trace
       - name: Purge unused CSS 🧹
         run: |

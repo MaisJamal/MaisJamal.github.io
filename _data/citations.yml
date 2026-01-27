@@ -1,28 +1,27 @@
-
 metadata:
   last_updated: '2026-01-26'
 papers:
   Gy35_zkAAAAJ:d1gkVwhDpl0C:
     citations: 13
-    title: Adaptive maneuver planning for autonomous vehicles using behavior tree on apollo platform
+    title: "Adaptive maneuver planning for autonomous vehicles using behavior tree on apollo platform"
     year: '2021'
 
   Gy35_zkAAAAJ:9yKSN-GCB0IC:
     citations: 3
-    title: Learning Adaptive Parking Maneuvers for Self-driving Cars
+    title: "Learning Adaptive Parking Maneuvers for Self-driving Cars"
     year: '2023'
     
   Gy35_zkAAAAJ:2osOgNQ5qMEC:
     citations: 1
-    title: FFStreams: Fast Search with Streams for Autonomous Maneuver Planning
+    title: "FFStreams: Fast Search with Streams for Autonomous Maneuver Planning"
     year: '2024'
 
   Gy35_zkAAAAJ:qjMakFHDy7sC:
     citations: 0
-    title: Maneuver Decision-Making with Trajectory Streams Prediction for Autonomous Vehicles
+    title: "Maneuver Decision-Making with Trajectory Streams Prediction for Autonomous Vehicles"
     year: '2024'
 
   Gy35_zkAAAAJ:u5HHmVD_uO8C:
     citations: 2
-    title: Low-Cost Quadcopter Indoor Positioning System Based on Image Processing and Neural Networks
+    title: "Low-Cost Quadcopter Indoor Positioning System Based on Image Processing and Neural Networks"
     year: '2019'
