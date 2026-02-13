@@ -26,9 +26,13 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Behavior Planning Engineer with a Ph.D. in Artificial Intelligence and Machine Learning, specializing in `adaptive planning` and `decision-making` for `autonomous systems`. Experienced in behavior trees, reinforcement learning, and heuristic search for intelligent maneuver planning.
+Behavior Planning and Autonomy Engineer with a `Ph.D.` in Artificial Intelligence and Machine Learning from the Moscow Institute of Physics and Technology (`MIPT`), focused on `adaptive planning` and real-time `decision-making` under safety constraints. My work centers on enabling machines not only to execute predefined actions, but to anticipate, adapt, and reason in `dynamic environments`.
 
-Developed and integrated advanced planning algorithms on platforms such as `Apollo Auto` and `CommonRoad`. Committed to bridging cutting-edge research with real-world deployment to advance safe and reliable autonomous driving technologies.
+My doctoral research resulted in a task-and-motion planning (TAMP) framework extended with QCNet-based multi-agent trajectory prediction, enabling prediction-aware behavior planning in complex, uncertain settings. I design decision-making architectures that integrate planning, perception, and execution, with an emphasis on `robustness` and `real-world feasibility`.
+
+I have developed and deployed behavior planning algorithms (behavior trees, reinforcement learning, and heuristic search) for autonomous robotic platforms, including an `outdoor autonomous cleaning robot` operating in unstructured environments. To support end-to-end validation, I implemented a bidirectional `interface` between the CARLA simulator and the Apollo Auto platform, enabling seamless transitions from simulation to hardware-in-the-loop testing and full-scale vehicle deployment. My technical expertise includes ROS/ROS2, navigation stack development, system-level integration, and full autonomy pipelines from algorithm design to field validation.
+
+With academic training spanning learning-based robotic manipulation (`M.Sc.`, Mechatronics and Robotic Systems, `Bauman Moscow State Technical University`) and autonomous aerial systems (`B.Sc.`, Mechatronics, Robotics, and Automation Engineering, `Tishreen University`), I bring a comprehensive background across ground and aerial robotics. I am particularly motivated by advancing intelligent autonomy in safety-critical, real-world applications where adaptive decision-making and system reliability are essential.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
