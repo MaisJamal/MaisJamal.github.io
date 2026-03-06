@@ -6,7 +6,7 @@ subtitle: <a href='https://www.linkedin.com/in/maisjamal'>Behavior Planning Engi
 
 profile:
   align: right
-  image: my_pic.jpg
+  image: my_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD in AI and ML</p>
