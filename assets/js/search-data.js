@@ -38,7 +38,7 @@ ninja.data = [{
             },},{id: "news-i-defended-my-doctoral-thesis-entitled-development-and-research-of-adaptive-planning-algorithms-and-methods-for-autonomous-vehicle-maneuvers",
           title: 'I defended my doctoral thesis entitled “Development and Research of Adaptive Planning Algorithms...',
           description: "",
-          section: "News",},{id: "news-my-paper-принятие-решений-о-проведении-маневра-с-предсказанием-траекторных-потоков-для-беспилотного-транспортного-средства-has-been-published-in-the-proceedings-of-the-xxii-russian-conference-on-artificial-intelligence-rcai-2025-held-on-october-6-10-2025",
+          section: "News",},{id: "news-my-paper-принятие-решений-о-проведении-маневра-с-предсказанием-траекторных-потоков-для-беспилотного-транспортного-средства-maneuver-decision-making-with-trajectory-streams-prediction-for-autonomous-vehicles-has-been-published-in-the-proceedings-of-the-xxii-russian-conference-on-artificial-intelligence-rcai-2025-held-on-october-6-10-2025",
           title: 'My paper, “Принятие решений о проведении маневра с предсказанием траекторных потоков для беспилотного...',
           description: "",
           section: "News",},{
