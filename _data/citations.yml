@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-30'
+  last_updated: '2026-03-02'
 papers:
   Gy35_zkAAAAJ:2osOgNQ5qMEC:
-    citations: 1
+    citations: 3
     title: 'FFStreams: Fast Search With Streams for Autonomous Maneuver Planning'
     year: '2024'
   Gy35_zkAAAAJ:9yKSN-GCB0IC:
-    citations: 3
+    citations: 4
     title: Learning adaptive parking maneuvers for self-driving cars
     year: '2022'
   Gy35_zkAAAAJ:d1gkVwhDpl0C:
