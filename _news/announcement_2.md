@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper, “Принятие решений о проведении маневра с предсказанием траекторных потоков для беспилотного транспортного средства”, has been published in the proceedings of the XXII Russian Conference on Artificial Intelligence (RCAI-2025), held on October 6–10, 2025.
+My paper, “Принятие решений о проведении маневра с предсказанием траекторных потоков для беспилотного транспортного средства” (“Maneuver Decision-Making with Trajectory Streams Prediction for Autonomous Vehicles”), has been published in the proceedings of the XXII Russian Conference on Artificial Intelligence (RCAI-2025), held on October 6–10, 2025.

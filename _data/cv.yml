@@ -2,96 +2,91 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mais Jamal
     - name: Languages
-      value: English, German
+      value: Arabic (Native), English (Fluent), Russian (Fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Artificial Intelligence and Machine Learning
+      institution: Moscow Institute of Physics and Technology (MIPT), Moscow, Russia
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Dissertation: Development and Research of Adaptive Planning Algorithms and Methods for Autonomous Vehicle Maneuvers."
+        - Specialization in behavior planning, task-and-motion planning, and multi-agent trajectory prediction.
+    - title: M.Sc. in Mechatronics and Robotic Systems
+      institution: Bauman Moscow State Technical University, Moscow, Russia
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: Convolutional Neural Networks for Manipulator Control and Object Grasping."
+    - title: B.Sc. in Mechatronics, Robotics, and Automation Engineering
+      institution: Tishreen University, Latakia, Syria
+      year: 2012 - 2017
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Behavior Planning Engineer for Autonomous Systems
+      institution: Integrant, Inc., Moscow, Russia
+      year: 2022 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed and deployed heuristic-based planning and scheduling algorithms for outdoor autonomous cleaning robots and autonomous vehicles, integrating advanced decision-making into the robot control stack and the Apollo stack.
+        - Validated performance on real vehicles and robots as well as high-fidelity simulators (CARLA, LG SVL).
+        - Led large-scale scenario design and failure analysis across urban, highway, parking, and cleaning operations.
+    - title: Doctoral Candidate Research Assistant
+      institution: Center for Cognitive Modeling, Moscow Institute of Physics and Technology
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Conducted doctoral research on autonomous driving systems, specializing in the Apollo architecture, simulation environments, and HD mapping tools.
+        - Developed and integrated learning-based behavior tree and reinforcement learning algorithms for adaptive overtaking and parking.
+    - title: Project Manager – Multilingual Voice-Over Teams
+      institution: Freelance / Remote
+      year: 2017 - 2022
       description:
+        - Managed distributed multilingual teams delivering media and educational content across five languages.
+        - Designed and scaled quality-assurance workflows for remote production environments.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Skills
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - title: Programming Languages & Middleware
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Python, C/C++, MATLAB, Simulink, CUDA
+        - ROS, ROS2, CyberRT
+    - title: Autonomous Driving & Simulation
       items:
-        - Max Planck Medal
+        - Apollo Auto
+        - CARLA, LG SVL, CommonRoad
+        - RoadRunner (HD Mapping & Scenario Design)
+    - title: Machine Learning & Computer Vision
+      items:
+        - PyTorch, OpenCV
+    - title: Motion Planning & Decision-Making
+      items:
+        - Task and Motion Planning (TAMP), PDDL
+        - Behavior Trees, Reinforcement Learning
+        - Path Planning, Trajectory Optimization, Heuristic Search
+    - title: Software Engineering
+      items:
+        - Git, GitHub, Version Control, Debugging
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Autonomous Driving
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Behavior planning and decision-making under uncertainty
+        - Simulation-to-real validation pipelines
+    - title: Planning & AI
       items:
-        - Description 1.
-        - Description 2.
+        - Task and motion planning (TAMP)
+        - Multi-agent trajectory prediction
+        - Heuristic and learning-based search
 
-- title: Other Interests
+- title: Languages
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Arabic:</u> Native"
+    - "<u>English:</u> Fluent"
+    - "<u>Russian:</u> Fluent"
