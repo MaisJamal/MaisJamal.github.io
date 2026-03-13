@@ -6,11 +6,6 @@
   // General text alignment
   text-align: right;
 
-  // Justify about page body text
-  .clearfix {
-    text-align: justify;
-  }
-
   // Navbar adjustments
   .navbar-brand {
     margin-right: 0;
@@ -54,10 +49,12 @@
     }
   }
 
-  // News table
+  // News table - reverse column order
   .news {
     table {
-      td {
+      direction: rtl;
+      td,
+      th {
         text-align: right;
       }
     }
@@ -79,6 +76,9 @@
       text-align: right;
     }
     .post-content {
+      text-align: right;
+    }
+    h2 {
       text-align: right;
     }
   }
@@ -117,9 +117,27 @@
     text-align: right;
   }
 
-  // Publication entries
+  // Publication entries - reverse row direction
   .publications {
     text-align: right;
+
+    .row {
+      flex-direction: row-reverse;
+    }
+
+    .col,
+    .col-sm-2,
+    .col-sm-8,
+    .col-sm-10 {
+      text-align: right;
+    }
+
+    .links {
+      direction: ltr;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
   }
 
   // Language switcher
