@@ -40,12 +40,6 @@
       description:
         - Conducted doctoral research on autonomous driving systems, specializing in the Apollo architecture, simulation environments, and HD mapping tools.
         - Developed and integrated learning-based behavior tree and reinforcement learning algorithms for adaptive overtaking and parking.
-    - title: Project Manager – Multilingual Voice-Over Teams
-      institution: Freelance / Remote
-      year: 2017 - 2022
-      description:
-        - Managed distributed multilingual teams delivering media and educational content across five languages.
-        - Designed and scaled quality-assurance workflows for remote production environments.
 
 - title: Skills
   type: nested_list

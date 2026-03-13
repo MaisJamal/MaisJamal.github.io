@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /ar/publications/
-title: المنشورات
+title: المنشورات العلمية
 description:
 nav: true
 nav_order: 2
