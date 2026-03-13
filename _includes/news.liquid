@@ -1,6 +1,20 @@
 <div class="news">
   {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+    {% assign all_news = site.news | reverse %}
+    {% comment %} Filter news by language {% endcomment %}
+    {% assign filtered_news = "" | split: "" %}
+    {% for item in all_news %}
+      {% if page.lang == 'ar' %}
+        {% if item.lang == 'ar' %}
+          {% assign filtered_news = filtered_news | push: item %}
+        {% endif %}
+      {% else %}
+        {% unless item.lang == 'ar' %}
+          {% assign filtered_news = filtered_news | push: item %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% assign news_size = filtered_news | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -8,13 +22,12 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
-        {% for item in news limit: news_limit %}
+        {% for item in filtered_news limit: news_limit %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
@@ -29,6 +42,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>{% if page.lang == 'ar' %}لا توجد أخبار حتى الآن...{% else %}No news so far...{% endif %}</p>
   {% endif %}
 </div>

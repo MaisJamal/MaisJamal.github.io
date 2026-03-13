@@ -6,6 +6,11 @@
   // General text alignment
   text-align: right;
 
+  // Justify about page body text
+  .clearfix {
+    text-align: justify;
+  }
+
   // Navbar adjustments
   .navbar-brand {
     margin-right: 0;
