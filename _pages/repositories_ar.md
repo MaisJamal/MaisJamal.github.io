@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /ar/repositories/
-title: المستودعات
-description: نظرة عامة على نشاطي على GitHub، تسلّط الضوء على المستودعات الرئيسية وإحصائيات التطوير وقواعد الشيفرة المرتبطة بمشاريعي البحثية والهندسية.
+title: مجلدات GitHub
+description: نظرة عامة على نشاطي على GitHub، تسلّط الضوء على المشاريع الرئيسية وإحصائيات التطوير المرتبطة بمشاريعي البحثية والهندسية.
 nav: true
 nav_order: 4
 lang: ar
@@ -10,7 +10,7 @@ lang: ar
 
 {% if site.data.repositories.github_users %}
 
-## مستخدمو GitHub
+## حسابي على GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -38,7 +38,7 @@ lang: ar
 
 {% if site.data.repositories.github_repos %}
 
-## مستودعات GitHub
+## مجلدات GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
