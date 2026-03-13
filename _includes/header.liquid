@@ -1,9 +1,18 @@
 <header>
+  <!-- Determine current language -->
+  {% if page.lang == 'ar' %}
+    {% assign current_lang = 'ar' %}
+    {% assign home_url = '/ar/' %}
+  {% else %}
+    {% assign current_lang = 'en' %}
+    {% assign home_url = '/' %}
+  {% endif %}
+
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if page.permalink != '/' and page.permalink != '/ar/' %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -42,24 +51,36 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+          <!-- Find about title for current language -->
+          {% for p in site.pages %}
+            {% if p.permalink == home_url %}
+              {% assign about_title = p.title %}
+            {% endif %}
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+          <li class="nav-item {% if page.permalink == '/' or page.permalink == '/ar/' %}active{% endif %}">
+            <a class="nav-link" href="{{ home_url | relative_url }}">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.permalink == '/' or page.permalink == '/ar/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
           </li>
 
-          <!-- Other pages -->
+          <!-- Other pages (filtered by language) -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              <!-- Filter: show only pages matching current language -->
+              {% if current_lang == 'ar' %}
+                {% unless p.lang == 'ar' %}{% continue %}{% endunless %}
+                {% if p.permalink == '/ar/' %}{% continue %}{% endif %}
+              {% else %}
+                {% if p.lang == 'ar' %}{% continue %}{% endif %}
+                {% if p.permalink == '/' %}{% continue %}{% endif %}
+              {% endif %}
+
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -135,6 +156,20 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language Switcher -->
+          <li class="nav-item">
+            <div class="nav-link lang-switcher">
+              {% if current_lang == 'ar' %}
+                <a href="{{ '/' | relative_url }}" title="English">EN</a>
+                <span class="lang-sep">|</span>
+                <a href="{{ '/ar/' | relative_url }}" class="active-lang" title="العربية">ع</a>
+              {% else %}
+                <a href="{{ '/' | relative_url }}" class="active-lang" title="English">EN</a>
+                <span class="lang-sep">|</span>
+                <a href="{{ '/ar/' | relative_url }}" title="العربية">ع</a>
+              {% endif %}
+            </div>
+          </li>
         </ul>
       </div>
     </div>

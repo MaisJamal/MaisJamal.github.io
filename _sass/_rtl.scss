@@ -1,0 +1,155 @@
+/*******************************************************************************
+ * RTL (Right-to-Left) styles for Arabic language support.
+ ******************************************************************************/
+
+[dir="rtl"] {
+  // General text alignment
+  text-align: right;
+
+  // Navbar adjustments
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .navbar-collapse {
+    text-align: left !important;
+  }
+
+  .navbar-nav {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  .navbar-toggler {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  // Profile section on about page
+  .profile {
+    &.float-right {
+      float: left !important;
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+    &.float-left {
+      float: right !important;
+      margin-right: 0;
+      margin-left: 1rem;
+    }
+  }
+
+  // Table padding
+  table {
+    td,
+    th {
+      padding: 1px 0 1px 1rem;
+      text-align: right;
+    }
+  }
+
+  // News table
+  .news {
+    table {
+      td {
+        text-align: right;
+      }
+    }
+  }
+
+  // CV sections
+  .cv {
+    .card {
+      text-align: right;
+    }
+    .list-group-item {
+      text-align: right;
+    }
+  }
+
+  // Post content
+  .post {
+    .post-header {
+      text-align: right;
+    }
+    .post-content {
+      text-align: right;
+    }
+  }
+
+  // Description text
+  .desc {
+    text-align: right;
+  }
+
+  // Contact and social section
+  .social {
+    text-align: right;
+  }
+
+  .contact-icons {
+    direction: ltr;
+  }
+
+  // Footer
+  footer {
+    text-align: right;
+  }
+
+  // More info under profile
+  .more-info {
+    text-align: right;
+  }
+
+  // TOC sidebar
+  #toc-sidebar {
+    text-align: right;
+  }
+
+  // Dropdown menus
+  .dropdown-menu {
+    text-align: right;
+  }
+
+  // Publication entries
+  .publications {
+    text-align: right;
+  }
+
+  // Language switcher
+  .lang-switcher {
+    direction: ltr;
+  }
+}
+
+// Language switcher styling (applies in both LTR and RTL)
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+
+    &.active-lang {
+      font-weight: bold;
+      color: var(--global-theme-color);
+    }
+  }
+
+  .lang-sep {
+    color: var(--global-text-color);
+    opacity: 0.4;
+    font-size: 0.85rem;
+  }
+}
