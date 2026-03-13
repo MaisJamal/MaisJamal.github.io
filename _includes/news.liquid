@@ -2,7 +2,7 @@
   {% if site.news != blank %}
     {% assign all_news = site.news | reverse %}
     {% comment %} Filter news by language {% endcomment %}
-    {% assign filtered_news = "" | split: "" %}
+    {% assign filtered_news = '' | split: '' %}
     {% for item in all_news %}
       {% if page.lang == 'ar' %}
         {% if item.lang == 'ar' %}
@@ -42,6 +42,8 @@
       </table>
     </div>
   {% else %}
-    <p>{% if page.lang == 'ar' %}لا توجد أخبار حتى الآن...{% else %}No news so far...{% endif %}</p>
+    <p>
+      {% if page.lang == 'ar' %}لا توجد أخبار حتى الآن...{% else %}No news so far...{% endif %}
+    </p>
   {% endif %}
 </div>
