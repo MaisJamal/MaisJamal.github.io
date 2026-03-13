@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-المستودعات",
-          title: "المستودعات",
-          description: "نظرة عامة على نشاطي على GitHub، تسلّط الضوء على المستودعات الرئيسية وإحصائيات التطوير وقواعد الشيفرة المرتبطة بمشاريعي البحثية والهندسية.",
+        },{id: "nav-مجلدات-github",
+          title: "مجلدات GitHub",
+          description: "نظرة عامة على نشاطي على GitHub، تسلّط الضوء على المشاريع الرئيسية وإحصائيات التطوير المرتبطة بمشاريعي البحثية والهندسية.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ar/repositories/";
@@ -59,8 +59,8 @@ ninja.data = [{
             },},{id: "news-i-defended-my-doctoral-thesis-entitled-development-and-research-of-adaptive-planning-algorithms-and-methods-for-autonomous-vehicle-maneuvers",
           title: 'I defended my doctoral thesis entitled “Development and Research of Adaptive Planning Algorithms...',
           description: "",
-          section: "News",},{id: "news-قمتُ-بالدفاع-عن-أطروحة-الدكتوراه-بعنوان-تطوير-وبحث-خوارزميات-وأساليب-التخطيط-التكيّفي-لمناورات-المركبات-المستقلة",
-          title: 'قمتُ بالدفاع عن أطروحة الدكتوراه بعنوان “تطوير وبحث خوارزميات وأساليب التخطيط التكيّفي لمناورات...',
+          section: "News",},{id: "news-قمتُ-بالدفاع-عن-أطروحة-الدكتوراه-بعنوان-تطوير-وبحث-خوارزميات-وأساليب-التخطيط-التكيّفي",
+          title: 'قمتُ بالدفاع عن أطروحة الدكتوراه بعنوان “تطوير وبحث خوارزميات وأساليب التخطيط التكيّفي “...',
           description: "",
           section: "News",},{id: "news-my-paper-принятие-решений-о-проведении-маневра-с-предсказанием-траекторных-потоков-для-беспилотного-транспортного-средства-maneuver-decision-making-with-trajectory-streams-prediction-for-autonomous-vehicles-has-been-published-in-the-proceedings-of-the-xxii-russian-conference-on-artificial-intelligence-rcai-2025-held-on-october-6-10-2025",
           title: 'My paper, “Принятие решений о проведении маневра с предсказанием траекторных потоков для беспилотного...',
