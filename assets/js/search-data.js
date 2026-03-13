@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-المنشورات",
+          title: "المنشورات",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ar/publications/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "An overview of my GitHub activity, highlighting key repositories, development statistics, and codebases associated with my research and engineering projects.",
@@ -23,12 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-المستودعات",
+          title: "المستودعات",
+          description: "نظرة عامة على نشاطي على GitHub، تسلّط الضوء على المستودعات الرئيسية وإحصائيات التطوير وقواعد الشيفرة المرتبطة بمشاريعي البحثية والهندسية.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ar/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-السيرة-الذاتية",
+          title: "السيرة الذاتية",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ar/cv/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
