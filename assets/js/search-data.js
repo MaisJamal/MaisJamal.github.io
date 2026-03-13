@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-المنشورات",
-          title: "المنشورات",
+        },{id: "nav-المنشورات-العلمية",
+          title: "المنشورات العلمية",
           description: "",
           section: "Navigation",
           handler: () => {
