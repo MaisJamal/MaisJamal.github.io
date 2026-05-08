@@ -5,6 +5,8 @@
       value: Mais Jamal
     - name: Languages
       value: Arabic (Native), English (Fluent), Russian (Fluent), German (Beginner)
+    - name: Relocation
+      value: Open to relocation
 
 - title: Education
   type: time_table
@@ -19,10 +21,12 @@
       institution: Bauman Moscow State Technical University, Moscow, Russia
       year: 2018 - 2020
       description:
-        - "Thesis: Convolutional Neural Networks for Manipulator Control and Object Grasping."
+        - "Thesis: CNN-based grasp detection for ABB YuMi 7-DOF manipulator (ROS, MoveIt, Gazebo)."
     - title: B.Sc. in Mechatronics, Robotics, and Automation Engineering
       institution: Tishreen University, Latakia, Syria
       year: 2012 - 2017
+      description:
+        - First Class Honours, Distinguished Program.
 
 - title: Experience
   type: time_table
@@ -31,36 +35,42 @@
       institution: Integrant, Inc., Moscow, Russia
       year: 2022 - 2026
       description:
-        - Developed and deployed heuristic-based planning and scheduling algorithms for outdoor autonomous cleaning robots and autonomous vehicles, integrating advanced decision-making into the robot control stack and the Apollo stack.
-        - Validated performance on real vehicles and robots as well as high-fidelity simulators (CARLA, LG SVL).
-        - Led large-scale scenario design and failure analysis across urban, highway, parking, and cleaning operations.
+        - Developed and deployed production-ready decision-making algorithms into the Apollo stack; validated on Kia Soul autonomous vehicle across 50+ scenarios (urban, highway, intersections), achieving 10% performance improvement.
+        - Designed heuristic-based scheduling and planning algorithm for autonomous outdoor cleaning robot; developed and validated in CoppeliaSim with Bullet physics.
+        - Built and maintained bidirectional CARLA–Apollo bridge for sensor data exchange and control integration, enabling simulation-to-deployment workflows.
+        - Designed and optimized trajectory generation algorithms using Frenet-frame representation for smooth, collision-free paths in dynamic environments.
+        - Collaborated with perception and control teams to integrate planning algorithms with sensor pipelines and vehicle actuation systems.
     - title: Doctoral Candidate Research Assistant
       institution: Center for Cognitive Modeling, Moscow Institute of Physics and Technology
       year: 2020 - 2024
       description:
-        - Conducted doctoral research on autonomous driving systems, specializing in the Apollo architecture, simulation environments, and HD mapping tools.
-        - Developed and integrated learning-based behavior tree and reinforcement learning algorithms for adaptive overtaking and parking.
+        - Developed TAMP framework (FFStreams) combining heuristic search with Streams for real-time adaptive decision-making under safety constraints.
+        - Extended framework with QCNet transformer model for multi-agent trajectory prediction, enabling prediction-aware behavior planning.
+        - Evaluated planning algorithms across multiple benchmark datasets (inD, Argoverse 2, CitySim, INTERACTION, CommonRoad).
+        - Designed learning-based behavior tree algorithms for overtaking and RL-based adaptive parking.
+        - Published in IEEE Robotics and Automation Letters (Q1) and Springer LNCS.
 
 - title: Skills
   type: nested_list
   contents:
     - title: Programming Languages & Middleware
       items:
-        - Python, C/C++, MATLAB, Simulink, CUDA
-        - ROS, ROS2, CyberRT
+        - C++ (primary), Python (primary), MATLAB, Simulink, CUDA
+        - ROS, ROS2, CyberRT, MoveIt
     - title: Autonomous Driving & Simulation
       items:
         - Apollo Auto
-        - CARLA, LG SVL, CommonRoad
+        - CARLA, CoppeliaSim (Bullet), Gazebo, LG SVL, CommonRoad
         - RoadRunner (HD Mapping & Scenario Design)
     - title: Machine Learning & Computer Vision
       items:
-        - PyTorch, OpenCV
+        - PyTorch, TensorFlow, OpenCV
     - title: Motion Planning & Decision-Making
       items:
         - Task and Motion Planning (TAMP), PDDL
         - Behavior Trees, Reinforcement Learning
-        - Path Planning, Trajectory Optimization, Heuristic Search
+        - "Path Planning (A*, RRT, Lattice), Trajectory Optimization (Frenet, MPC), Heuristic Search"
+        - Sensor Fusion, Multi-Agent Trajectory Prediction
     - title: Software Engineering
       items:
         - Git, GitHub, Version Control, Debugging

@@ -65,7 +65,7 @@
       "name": "Programming Languages & Middleware",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "MATLAB", "Simulink", "CUDA", "ROS2", "ROS", "CyberRT"]
+      "keywords": ["C++ (primary)", "Python (primary)", "MATLAB", "Simulink", "CUDA", "ROS", "ROS2", "CyberRT", "MoveIt"]
     },
     {
       "name": "Autonomous Driving Platforms",
@@ -77,13 +77,13 @@
       "name": "Simulation & Benchmarking Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-cubes",
-      "keywords": ["LG SVL", "CARLA", "CommonRoad"]
+      "keywords": ["CARLA", "CoppeliaSim (Bullet)", "Gazebo", "LG SVL", "CommonRoad"]
     },
     {
       "name": "Machine Learning & Computer Vision Frameworks",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": ["PyTorch", "OpenCV"]
+      "keywords": ["PyTorch", "TensorFlow", "OpenCV"]
     },
     {
       "name": "Scenario Design & HD Mapping",
@@ -108,7 +108,10 @@
         "Path Planning",
         "Trajectory Optimization",
         "Frenet Coordinate System",
-        "Heuristic Search"
+        "MPC",
+        "Heuristic Search",
+        "Sensor Fusion",
+        "Multi-Agent Trajectory Prediction"
       ]
     }
   ],
@@ -126,6 +129,11 @@
     {
       "language": "Russian",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
       "icon": ""
     }
   ]
