@@ -4,7 +4,7 @@
     - name: Full Name
       value: Mais Jamal
     - name: Languages
-      value: Arabic (Native), English (Fluent), Russian (Fluent)
+      value: Arabic (Native), English (Fluent), Russian (Fluent), German (Beginner)
 
 - title: Education
   type: time_table
@@ -84,3 +84,4 @@
     - "<u>Arabic:</u> Native"
     - "<u>English:</u> Fluent"
     - "<u>Russian:</u> Fluent"
+    - "<u>German:</u> Beginner (currently learning)"
