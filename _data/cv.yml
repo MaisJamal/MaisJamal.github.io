@@ -29,14 +29,14 @@
   contents:
     - title: Behavior Planning Engineer for Autonomous Systems
       institution: Integrant, Inc., Moscow, Russia
-      year: 2022 - now
+      year: 2022 - 2026
       description:
         - Developed and deployed heuristic-based planning and scheduling algorithms for outdoor autonomous cleaning robots and autonomous vehicles, integrating advanced decision-making into the robot control stack and the Apollo stack.
         - Validated performance on real vehicles and robots as well as high-fidelity simulators (CARLA, LG SVL).
         - Led large-scale scenario design and failure analysis across urban, highway, parking, and cleaning operations.
     - title: Doctoral Candidate Research Assistant
       institution: Center for Cognitive Modeling, Moscow Institute of Physics and Technology
-      year: 2020 - 2022
+      year: 2020 - 2024
       description:
         - Conducted doctoral research on autonomous driving systems, specializing in the Apollo architecture, simulation environments, and HD mapping tools.
         - Developed and integrated learning-based behavior tree and reinforcement learning algorithms for adaptive overtaking and parking.

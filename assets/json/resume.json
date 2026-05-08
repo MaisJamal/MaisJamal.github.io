@@ -42,6 +42,7 @@
       "position": "Behavior Planning Engineer for Autonomous Systems",
       "url": "https://integrant.ru/",
       "startDate": "2022-06",
+      "endDate": "2026-02",
       "highlights": [
         "Developed and deployed heuristic-based planning and scheduling algorithms for outdoor autonomous cleaning robots and autonomous vehicles, integrating advanced decision-making into the robot control stack and the Apollo stack, and validating performance on real vehicles and robots as well as high-fidelity simulators.",
         "Led large-scale scenario design and failure analysis across urban, highway, parking, and cleaning operations, improving planning robustness through systematic testing, simulation-to-real validation, and iterative refinement of the planning module."
@@ -52,21 +53,12 @@
       "company": "Center for Cognitive Modeling, Moscow Institute of Physics and Technology",
       "url": "https://eng.mipt.ru/",
       "startDate": "2020-09",
-      "endDate": "2022-12",
+      "endDate": "2024-12",
       "highlights": [
         "Conducted doctoral research on autonomous driving systems, specializing in the Apollo architecture, simulation environments, and HD mapping tools.",
         "Developed and integrated learning-based behavior tree and reinforcement learning algorithms for adaptive overtaking and parking, contributing to peer-reviewed publications."
       ]
     },
-    {
-      "position": "Project Manager – Multilingual Voice-Over Teams",
-      "company": "Freelance / Remote",
-      "startDate": "2017-04",
-      "endDate": "2022-12",
-      "highlights": [
-        "Managed distributed multilingual voice-over teams delivering media and educational content across five languages.\nDesigned and scaled quality-assurance workflows to ensure consistency, efficiency, and delivery reliability in remote production environments."
-      ]
-    }
   ],
   "skills": [
     {
