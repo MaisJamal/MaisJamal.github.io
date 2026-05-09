@@ -49,42 +49,69 @@
         - النشر في IEEE Robotics and Automation Letters (Q1) ومؤتمرات Springer LNCS.
 
 - title: المهارات
-  type: nested_list
+  type: list_groups
   contents:
-    - title: لغات البرمجة والبرمجيات الوسيطة
+    - category: لغات البرمجة والبرمجيات الوسيطة
+      icon: fa-solid fa-code
       items:
-        - C++ (أساسية)، Python (أساسية)، MATLAB، Simulink، CUDA
-        - ROS، ROS2، CyberRT، MoveIt
-    - title: القيادة المستقلة والمحاكاة
+        - name: C++ (أساسية)
+        - name: Python (أساسية)
+        - name: MATLAB
+        - name: Simulink
+        - name: CUDA
+        - name: ROS
+        - name: ROS2
+        - name: CyberRT
+        - name: MoveIt
+    - category: القيادة المستقلة والمحاكاة
+      icon: fa-solid fa-car
       items:
-        - Apollo Auto
-        - CARLA، CoppeliaSim (Bullet)، Gazebo، LG SVL، CommonRoad
-        - RoadRunner (الخرائط عالية الدقة وتصميم السيناريوهات)
-    - title: تعلّم الآلة والرؤية الحاسوبية
+        - name: Apollo Auto
+        - name: CARLA
+        - name: CoppeliaSim (Bullet)
+        - name: Gazebo
+        - name: LG SVL
+        - name: CommonRoad
+        - name: RoadRunner
+    - category: تعلّم الآلة والرؤية الحاسوبية
+      icon: fa-solid fa-brain
       items:
-        - PyTorch، TensorFlow، OpenCV
-    - title: تخطيط الحركة واتخاذ القرار
+        - name: PyTorch
+        - name: TensorFlow
+        - name: OpenCV
+    - category: تخطيط الحركة واتخاذ القرار
+      icon: fa-solid fa-route
       items:
-        - تخطيط المهام والحركة (TAMP)، PDDL
-        - أشجار السلوك، التعلم المعزز
-        - "تخطيط المسار (A*، RRT، Lattice)، تحسين المسارات (Frenet، MPC)، البحث الاستدلالي"
-        - دمج الحساسات، التنبؤ بمسارات الوكلاء المتعددين
-    - title: هندسة البرمجيات
+        - name: تخطيط المهام والحركة (TAMP)
+        - name: أشجار السلوك
+        - name: التعلم المعزز
+        - name: تخطيط المسار (A*، RRT، Lattice)
+        - name: تحسين المسارات (Frenet، MPC)
+        - name: البحث الاستدلالي
+        - name: دمج الحساسات
+        - name: التنبؤ بمسارات الوكلاء المتعددين
+    - category: هندسة البرمجيات
+      icon: fa-solid fa-tools
       items:
-        - Git، GitHub، التحكم بالإصدارات، تصحيح الأخطاء
+        - name: Git
+        - name: GitHub
+        - name: التحكم بالإصدارات
+        - name: تصحيح الأخطاء
 
 - title: الاهتمامات الأكاديمية
-  type: nested_list
+  type: list_groups
   contents:
-    - title: القيادة المستقلة
+    - category: القيادة المستقلة
+      icon: fa-solid fa-car
       items:
-        - تخطيط السلوك واتخاذ القرار في ظل عدم اليقين
-        - نقل الخوارزميات من المحاكاة إلى الواقع
-    - title: التخطيط والذكاء الاصطناعي
+        - name: تخطيط السلوك واتخاذ القرار في ظل عدم اليقين
+        - name: نقل الخوارزميات من المحاكاة إلى الواقع
+    - category: التخطيط والذكاء الاصطناعي
+      icon: fa-solid fa-brain
       items:
-        - تخطيط المهام والحركة (TAMP)
-        - التنبؤ بمسارات الوكلاء المتعددين
-        - البحث الاستدلالي والقائم على التعلّم
+        - name: تخطيط المهام والحركة (TAMP)
+        - name: التنبؤ بمسارات الوكلاء المتعددين
+        - name: البحث الاستدلالي والقائم على التعلّم
 
 - title: اللغات
   type: list
