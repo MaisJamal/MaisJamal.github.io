@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Engineering projects spanning autonomous driving, simulation tooling, and hands-on hardware.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Autonomous Systems, Simulation & Tooling, Hardware & Community]
 horizontal: false
 ---
 
