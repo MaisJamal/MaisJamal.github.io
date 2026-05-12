@@ -28,7 +28,9 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Behavior Planning and Autonomy Engineer with a `Ph.D.` in Artificial Intelligence and Machine Learning from the Moscow Institute of Physics and Technology (`MIPT`), focused on `adaptive planning` and real-time `decision-making` under safety constraints. My work centers on enabling machines not only to execute predefined actions, but to anticipate, adapt, and reason in `dynamic environments`.
+I am drawn to the moment when a machine must decide under uncertainty — not with perfect information, but with good enough reasoning to act safely. That tension between completeness and real-time feasibility has shaped everything I have built.
+
+Professionally, I am a Behavior Planning and Autonomy Engineer with a `Ph.D.` in Artificial Intelligence and Machine Learning from the Moscow Institute of Physics and Technology (`MIPT`), focused on `adaptive planning` and real-time `decision-making` under safety constraints. My work centers on enabling machines not only to execute predefined actions, but to anticipate, adapt, and reason in `dynamic environments`.
 
 My doctoral research resulted in a task-and-motion planning (TAMP) framework extended with QCNet-based multi-agent trajectory prediction, enabling prediction-aware behavior planning in complex, uncertain settings. I design decision-making architectures that integrate planning, perception, and execution, with an emphasis on `robustness` and `real-world feasibility`.
 
