@@ -36,6 +36,10 @@ I have developed and deployed behavior planning algorithms (behavior trees, rein
 
 With academic training spanning learning-based robotic manipulation (`M.Sc.`, Mechatronics and Robotic Systems, `Bauman Moscow State Technical University`) and autonomous aerial systems (`B.Sc.`, Mechatronics, Robotics, and Automation Engineering, `Tishreen University`), I bring a comprehensive background across ground and aerial robotics. I am particularly motivated by advancing intelligent autonomy in safety-critical, real-world applications where adaptive decision-making and system reliability are essential.
 
+Outside of research, I find myself tracing origins; how languages diverged from ancient roots, how civilizations built and lost knowledge, and how human understanding of science and engineering has transformed across time.
+
+*Robotics needs more women — as researchers, engineers, and leaders.*
+
 ## Currently
 
 - 🔍 Exploring how prediction uncertainty should propagate into PDDL-based planners
