@@ -46,7 +46,7 @@ layout: default
         {% if page.lang == 'ar' %}
           <a href="{{ '/news/' | relative_url }}" style="color: inherit">الأخبار</a>
         {% else %}
-          <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
         {% endif %}
       </h2>
       {% include news.liquid limit=true %}
@@ -70,7 +70,7 @@ layout: default
         {% if page.lang == 'ar' %}
           <a href="{{ '/ar/publications/' | relative_url }}" style="color: inherit">منشورات مختارة</a>
         {% else %}
-          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
         {% endif %}
       </h2>
       {% include selected_papers.liquid %}
