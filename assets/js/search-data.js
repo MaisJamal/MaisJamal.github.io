@@ -68,7 +68,32 @@ ninja.data = [{
           section: "News",},{id: "news-تم-نشر-ورقتي-البحثية-принятие-решений-о-проведении-маневра-с-предсказанием-траекторных-потоков-для-беспилотного-транспортного-средства-maneuver-decision-making-with-trajectory-streams-prediction-for-autonomous-vehicles-في-وقائع-المؤتمر-الروسي-الثاني-والعشرين-للذكاء-الاصطناعي-rcai-2025-المنعقد-في-الفترة-من-6-إلى-10-أكتوبر-2025",
           title: 'تم نشر ورقتي البحثية “Принятие решений о проведении маневра с предсказанием траекторных потоков...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-autonomous-car-deployment",
+          title: 'Autonomous Car Deployment',
+          description: "Full-stack behavior planning and real-world maneuver execution on a Kia Soul platform — from simulation to road testing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/autonomous_car/";
+            },},{id: "projects-carla-apollo-bridge",
+          title: 'CARLA-Apollo Bridge',
+          description: "Open-source bidirectional interface between the CARLA simulator and Apollo Auto, enabling seamless sim-to-real autonomous driving development.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/carla_apollo_bridge/";
+            },},{id: "projects-laptop-keyboard-replacement",
+          title: 'Laptop Keyboard Replacement',
+          description: "Hands-on hardware repair tutorial — full teardown and keyboard replacement with a step-by-step YouTube guide.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/keyboard_repair/";
+            },},{id: "projects-quadcopter",
+          title: 'Quadcopter',
+          description: "Group project building an autonomous quadcopter from scratch — hardware assembly, flight controller integration, and aerial systems design.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/quadcopter/";
+            },},{id: "projects-roadrunner-to-lgsvl-via-unity",
+          title: 'RoadRunner to LGSVL via Unity',
+          description: "End-to-end pipeline for importing MathWorks RoadRunner maps into the LGSVL simulator through Unity, with a step-by-step video tutorial.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/roadrunner_lgsvl/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
