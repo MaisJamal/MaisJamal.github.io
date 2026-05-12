@@ -40,7 +40,7 @@ With academic training spanning learning-based robotic manipulation (`M.Sc.`, Me
 
 Outside of research, I find myself tracing origins; how languages diverged from ancient roots, how civilizations built and lost knowledge, and how human understanding of science and engineering has transformed across time.
 
-*Robotics needs more women — as researchers, engineers, and leaders.*
+_Robotics needs more women — as researchers, engineers, and leaders._
 
 ## Currently
 
