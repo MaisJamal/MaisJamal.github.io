@@ -5,7 +5,7 @@ permalink: /projects/
 description: Engineering projects spanning autonomous driving, simulation tooling, and hands-on hardware.
 nav: true
 nav_order: 3
-display_categories: [work, fun] 
+display_categories: [work, fun]
 # [Autonomous Systems, Simulation & Tooling, Hardware & Community]
 horizontal: false
 ---

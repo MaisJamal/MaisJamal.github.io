@@ -7,7 +7,7 @@ subtitle: <a href='https://www.linkedin.com/in/maisjamal'>مهندسة تخطي�
 
 profile:
   align: right
-  image: my_pic.png
+  image: my_pic.jpg
   image_circular: false
   more_info: >
     <p>دكتوراه في الذكاء الاصطناعي وتعلّم الآلة</p>
