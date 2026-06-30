@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ar/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Engineering projects spanning autonomous driving, simulation tooling, and hands-on hardware.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "An overview of my GitHub activity, highlighting key repositories, development statistics, and codebases associated with my research and engineering projects.",
