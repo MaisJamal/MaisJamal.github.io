@@ -18,4 +18,4 @@ Created a complete workflow for converting **MathWorks RoadRunner** road network
 
 **Stack:** MathWorks RoadRunner, Unity, LGSVL Simulator
 
-[YouTube Tutorial](https://www.youtube.com){:target="\_blank"}
+[YouTube Tutorial](https://youtu.be/PzIeSl7iqww?si=V2cBfwfvJoDJyL92){:target="\_blank"}
