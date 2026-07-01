@@ -16,4 +16,4 @@ Documented a complete **laptop keyboard replacement** procedure, from disassembl
 - The tutorial has helped others save on repair costs and learn basic hardware maintenance
 - Reflects a broader philosophy: understand the systems you use, down to the physical layer
 
-[YouTube Tutorial](https://www.youtube.com){:target="\_blank"}
+[YouTube Tutorial](https://youtu.be/8YEhBW7l_7A?is=8Hbi3T9LiikBPIz6){:target="\_blank"}

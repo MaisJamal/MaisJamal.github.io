@@ -19,4 +19,4 @@ Built and maintained an open-source bridge connecting the **CARLA simulator** to
 
 **Stack:** ROS, Python, C++, CARLA, Apollo Auto
 
-[GitHub Repository](https://github.com/MaisJamal/carla_apollo_bridge){:target="\_blank"}
+[GitHub Repository](https://github.com/MaisJamal/carla_apollo_bridge){:target="\_blank"} · [YouTube Demo](https://youtu.be/2dQC3ToJGJU?is=mXtCQ24z8X4PmEHl){:target="\_blank"}
