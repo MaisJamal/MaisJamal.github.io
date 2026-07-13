@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-07-13'
 papers:
   Gy35_zkAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: Learning adaptive parking maneuvers for self-driving cars
     year: '2022'
   Gy35_zkAAAAJ:d1gkVwhDpl0C:
-    citations: 13
+    citations: 14
     title: Adaptive maneuver planning for autonomous vehicles using behavior tree on Apollo platform
     year: '2021'
   Gy35_zkAAAAJ:qjMakFHDy7sC:
