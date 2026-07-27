@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.linkedin.com/in/maisjamal'>Behavior Planning Engineer for Autonomous Systems</a>, Moscow, Russia.
+subtitle: <a href='https://www.linkedin.com/in/maisjamal'>Behavior Planning Engineer for Autonomous Systems</a>
 
 profile:
   align: right
@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD in AI and ML</p>
-    <p>Moscow, Russia</p>
     <p><a href="mailto:mayssjamal@gmail.com">mayssjamal@gmail.com</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
