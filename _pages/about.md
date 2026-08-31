@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.linkedin.com/in/maisjamal'>Behavior Planning Engineer for Autonomous Systems</a>
+subtitle: <a href='https://www.linkedin.com/in/maisjamal'>Behavior Planning Engineer for Autonomous Systems</a>, Dubai, UAE.
 
 profile:
   align: right
@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD in AI and ML</p>
+    <p>Dubai, UAE</p>
     <p><a href="mailto:mayssjamal@gmail.com">mayssjamal@gmail.com</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -44,8 +45,6 @@ _Robotics needs more women — as researchers, engineers, and leaders._
 ## Currently
 
 - 🔍 Exploring how prediction uncertainty should propagate into PDDL-based planners
-- 🤞 Preparing to relocate to Europe to work on autonomous systems
-- ⏳ Learning German — just getting started
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

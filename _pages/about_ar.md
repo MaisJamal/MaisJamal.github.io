@@ -3,7 +3,7 @@ layout: about
 title: حول
 permalink: /ar/
 lang: ar
-subtitle: <a href='https://www.linkedin.com/in/maisjamal'>مهندسة تخطيط السلوك للأنظمة المستقلة</a>، موسكو، روسيا.
+subtitle: <a href='https://www.linkedin.com/in/maisjamal'>مهندسة تخطيط السلوك للأنظمة المستقلة</a>، دبي، الإمارات العربية المتحدة.
 
 profile:
   align: right
