@@ -11,6 +11,7 @@ profile:
   image_circular: false
   more_info: >
     <p>دكتوراه في الذكاء الاصطناعي وتعلّم الآلة</p>
+    <p>دبي، الإمارات العربية المتحدة.</p>
     <p><a href="mailto:mayssjamal@gmail.com">mayssjamal@gmail.com</a></p>
 
 selected_papers: true
