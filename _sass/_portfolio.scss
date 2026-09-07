@@ -1,8 +1,8 @@
 .portfolio {
   --portfolio-ink: #203f61;
-  --portfolio-accent: #087e83;
-  --portfolio-wash: #edf5f5;
-  --portfolio-border: #cbdede;
+  --portfolio-accent: var(--global-theme-color);
+  --portfolio-wash: #eef5fd;
+  --portfolio-border: #cbddef;
   color: var(--global-text-color);
 
   h1,
@@ -247,11 +247,11 @@
 }
 html[data-theme="dark"] .portfolio {
   --portfolio-ink: #dceaf8;
-  --portfolio-accent: #67ced0;
-  --portfolio-wash: #172d34;
-  --portfolio-border: #34515a;
+  --portfolio-accent: var(--global-theme-color);
+  --portfolio-wash: #192838;
+  --portfolio-border: #344c65;
   .portfolio-button {
-    color: #10292b;
+    color: #102338;
   }
 }
 @media (max-width: 640px) {
