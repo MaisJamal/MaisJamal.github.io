@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Engineering projects spanning autonomous driving, simulation tooling, and hands-on hardware.",
+          description: "Selected work across planning, simulation, and deployed robotics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -120,24 +120,39 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-autonomous-car-deployment",
-          title: 'Autonomous Car Deployment',
-          description: "Full-stack behavior planning and real-world maneuver execution on a Kia Soul platform — from simulation to road testing.",
+            },},{id: "projects-autonomous-vehicle-deployment",
+          title: 'Autonomous Vehicle Deployment',
+          description: "Behavior planning and trajectory generation deployed on a Kia Soul autonomous vehicle.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/autonomous_car/";
             },},{id: "projects-carla-apollo-bridge",
-          title: 'CARLA-Apollo Bridge',
-          description: "Open-source bidirectional interface between the CARLA simulator and Apollo Auto, enabling seamless sim-to-real autonomous driving development.",
+          title: 'CARLA–Apollo Bridge',
+          description: "A bidirectional interface connecting simulated sensors and vehicle control to the Apollo stack.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/carla_apollo_bridge/";
+            },},{id: "projects-autonomous-outdoor-cleaning-robot",
+          title: 'Autonomous Outdoor Cleaning Robot',
+          description: "Adaptive scheduling and motion planning for cleaning in unstructured outdoor environments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cleaning_robot/";
+            },},{id: "projects-ffstreams-ffstreams",
+          title: 'FFStreams / FFStreams++',
+          description: "From FFStreams task-and-motion planning to FFStreams++ prediction-aware maneuver planning, developed during my Ph.D.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ffstreams/";
+            },},{id: "projects-cnn-grasp-detection",
+          title: 'CNN Grasp Detection',
+          description: "Learning grasp position, angle, and width from depth images for an ABB YuMi manipulator.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/grasp_detection/";
             },},{id: "projects-laptop-keyboard-replacement",
           title: 'Laptop Keyboard Replacement',
           description: "Hands-on hardware repair tutorial — full teardown and keyboard replacement with a step-by-step YouTube guide.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/keyboard_repair/";
-            },},{id: "projects-quadcopter",
-          title: 'Quadcopter',
-          description: "Group project building an autonomous quadcopter from scratch — hardware assembly, flight controller integration, and aerial systems design.",
+            },},{id: "projects-autonomous-quadcopter",
+          title: 'Autonomous Quadcopter',
+          description: "An aerial robotics project spanning airframe, electronics, control, and indoor localization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quadcopter/";
             },},{id: "projects-roadrunner-to-lgsvl-via-unity",
