@@ -75,3 +75,7 @@ The cleaning robot uses `assets/img/projects/cleaning-robot/mais-and-cleaning-ro
 Three original bridge GIFs are stored under `assets/img/projects/carla-apollo/`: ground-truth obstacles, red-light stopping, and a signalized T-intersection. They use the existing compact `demos` grid with links to the original animations. The ground-truth demo also replaces the bridge card placeholder.
 
 For additional photographs, use a `gallery` list with `title`, `img`, `image_alt`, and `caption`. Galleries reuse the responsive demo-grid sizing, with contained images and links to full-resolution originals.
+
+## Grasp-detection images added
+
+The grasp project reuses `assets/img/publication_preview/master_thesis.png` for the robot simulation cover and `assets/img/publication_preview/grasping_object.png` for the depth and grasp-prediction figure. The result figure links to its original resolution. Quantitative evaluation details are still pending.
