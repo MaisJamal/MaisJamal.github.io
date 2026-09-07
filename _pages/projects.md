@@ -2,64 +2,33 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Engineering projects spanning autonomous driving, simulation tooling, and hands-on hardware.
+description: Selected work across planning, simulation, and deployed robotics.
 nav: true
 nav_order: 3
-display_categories: [Autonomous Systems, Simulation & Tooling, Hardware & Community]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
+<div class="portfolio">
+  <div class="portfolio-intro">
+    <p class="portfolio-eyebrow">Research → simulation → deployment</p>
+    <h2>Building autonomy.<br>From reasoning to real-world action.</h2>
+    <p>I develop planning algorithms and the systems that bring them to life: prediction-aware maneuvers, on-vehicle decision-making, and ground and aerial robotics.</p>
+    <div class="portfolio-actions"><a class="portfolio-button" href="{{ '/publications/' | relative_url }}">Publications</a><a class="portfolio-link" href="{{ '/cv/' | relative_url }}">Experience & skills ↗</a></div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  {% assign selected = site.projects | where: 'portfolio', true | sort: 'importance' %}
+  <section aria-labelledby="featured-research">
+    <h2 id="featured-research" class="portfolio-section-title">01 / Featured research</h2>
+    {% for project in selected limit:1 %}{% include portfolio-card.liquid project=project hero=true %}{% endfor %}
+  </section>
+  <section aria-labelledby="engineering-projects">
+    <h2 id="engineering-projects" class="portfolio-section-title">02 / Engineering in practice</h2>
+    <div class="portfolio-grid">{% for project in selected offset:1 %}{% include portfolio-card.liquid project=project %}{% endfor %}</div>
+  </section>
+  <section class="portfolio-more" aria-labelledby="more-projects">
+    <h2 id="more-projects" class="portfolio-section-title">03 / More engineering & tutorials</h2>
+    {% assign extras = site.projects | sort: 'importance' %}
+    {% for project in extras %}{% if project.title == 'RoadRunner to LGSVL via Unity' or project.title == 'Laptop Keyboard Replacement' %}
+      <a class="portfolio-extra" href="{{ project.url | relative_url }}"><strong>{{ project.title }}</strong><span>{{ project.description }}</span><span aria-hidden="true">↗</span></a>
+    {% endif %}{% endfor %}
+  </section>
+  <div class="portfolio-contact"><h2>Let’s talk autonomy.</h2><p>For research collaborations and engineering opportunities.</p><a class="portfolio-button" href="mailto:mayssjamal@gmail.com">Get in touch</a></div>
 </div>

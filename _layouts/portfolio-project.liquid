@@ -1,0 +1,127 @@
+---
+layout: default
+---
+<article class="portfolio portfolio-detail">
+  <a class="portfolio-link" href="{{ '/projects/' | relative_url }}">← All projects</a>
+  <header class="portfolio-intro">
+    <p class="portfolio-eyebrow">{{ page.category }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="portfolio-lead">{{ page.description }}</p>
+    <p class="portfolio-context">{{ page.context }}</p>
+    <ul class="portfolio-tags" aria-label="Technologies">
+      {% for tag in page.technologies %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    {% if page.links.size > 0 %}
+      <div class="portfolio-actions">
+        {% for link in page.links -%}
+          <a class="portfolio-button" href="{{ link.url }}">{{ link.label }} ↗</a>
+        {%- endfor %}
+      </div>
+    {% endif %}
+  </header>
+  {% if page.show_cover_with_demos and page.img != blank %}
+    <figure class="portfolio-demo">
+      {% include portfolio-media.liquid project=page %}
+      <figcaption>{{ page.media_note }}</figcaption>
+    </figure>
+  {% endif %}
+  {% if page.demos.size > 0 %}
+    <section class="portfolio-scenarios" aria-labelledby="project-demos">
+      <h2 id="project-demos">{{ page.demos_heading | default: 'Demonstrations' }}</h2>
+      {% for demo in page.demos %}
+        <figure class="portfolio-demo">
+          {% if demo.label %}
+            <p class="portfolio-eyebrow">{{ demo.label }}</p>
+          {% endif %}
+          <h3>{{ demo.title }}</h3>
+          {% if demo.video != blank %}
+            <video
+              class="portfolio-scenario-image"
+              controls
+              preload="none"
+              playsinline
+              {% if demo.poster != blank %}
+                poster="{{ demo.poster | relative_url }}"
+              {% endif %}
+              aria-label="{{ demo.title | escape }}"
+            >
+              <source src="{{ demo.video | relative_url }}" type="video/mp4">
+              <a href="{{ demo.video | relative_url }}">Download {{ demo.title }}</a>
+            </video>
+          {% else %}
+            <img
+              class="portfolio-scenario-image"
+              src="{{ demo.img | relative_url }}"
+              alt="{{ demo.image_alt | escape }}"
+              loading="lazy"
+              width="2500"
+              height="1000"
+            >
+          {% endif %}
+          <figcaption>
+            {{ demo.caption }}
+            {% if demo.video != blank %}
+              <a href="{{ demo.video | relative_url }}">Open video ↗</a>
+            {% else %}
+              <a href="{{ demo.img | relative_url }}">Open original animation ↗</a>
+            {% endif %}
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </section>
+  {% else %}
+    <figure class="portfolio-demo">
+      {% include portfolio-media.liquid project=page playable=true %}
+      <figcaption>{{ page.media_note }}</figcaption>
+    </figure>
+  {% endif %}
+  <div class="portfolio-detail-grid">
+    <section>
+      <h2>The problem</h2>
+      <p>{{ page.problem }}</p>
+    </section>
+    <section>
+      <h2>My contribution</h2>
+      <ul>
+        {% for contribution in page.contributions %}
+          <li>{{ contribution }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+  <section class="portfolio-detail-section">
+    <h2>Technical approach</h2>
+    <p>{{ page.approach }}</p>
+  </section>
+  <section class="portfolio-detail-section">
+    <h2>Results & validation</h2>
+    <p class="portfolio-result">{{ page.result }}</p>
+    <p>{{ page.results }}</p>
+    {% if page.result_figures.size > 0 %}
+      {% for result in page.result_figures %}
+        <figure class="portfolio-result-figure">
+          <h3>{{ result.title }}</h3>
+          <a href="{{ result.img | relative_url }}" aria-label="Open full-resolution figure: {{ result.title | escape }}">
+            <img class="portfolio-scenario-image" src="{{ result.img | relative_url }}" alt="{{ result.image_alt | escape }}" loading="lazy">
+          </a>
+          <figcaption>
+            {{ result.caption }}
+            <a href="{{ result.img | relative_url }}">View full-resolution plot ↗</a>
+          </figcaption>
+        </figure>
+      {% endfor %}
+    {% elsif page.result_image != blank %}
+      <figure>
+        <img class="portfolio-media" src="{{ page.result_image | relative_url }}" alt="{{ page.result_image_alt | escape }}" loading="lazy">
+      </figure>
+    {% else %}
+      <div class="portfolio-evidence">
+        <strong>{{ page.results_placeholder }}</strong><span>Supporting material coming soon</span>
+      </div>
+    {% endif %}
+  </section>
+  {{ content }}
+  <footer class="portfolio-detail-section"><a class="portfolio-link" href="{{ '/projects/' | relative_url }}">Explore all projects →</a></footer>
+</article>

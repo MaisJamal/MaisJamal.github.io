@@ -13,6 +13,7 @@ profile:
     <p>Dubai, UAE</p>
     <p><a href="mailto:mayssjamal@gmail.com">mayssjamal@gmail.com</a></p>
 
+featured_projects: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

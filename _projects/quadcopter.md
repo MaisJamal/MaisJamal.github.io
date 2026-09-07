@@ -1,19 +1,31 @@
 ---
-layout: page
-title: Quadcopter
-description: Group project building an autonomous quadcopter from scratch — hardware assembly, flight controller integration, and aerial systems design.
-img:
-importance: 1
-category: Hardware & Community
-tags: [Hardware]
+title: "Autonomous Quadcopter"
+description: "An aerial robotics project spanning airframe, electronics, control, and indoor localization."
+category: "Aerial robotics"
+context: "B.Sc. project · Tishreen University"
+importance: 6
+featured: false
+technologies: ["Backstepping", "Control", "OpenCV", "Neural networks"]
+placeholder: "Quadcopter · build and tethered flight"
+media_note: "Outdoor flight demonstration of the quadcopter developed during my B.Sc. project."
+result: "Achieved stable tethered flight"
+problem: "Building an autonomous aerial platform requires coordinated mechanical design, electronics, stabilization, and localization."
+contributions:
+  [
+    "Contributed to the design and integration of the airframe, electronics, and control software.",
+    "Applied backstepping control for attitude stabilization.",
+    "Developed an image-processing and neural-network approach to indoor localization.",
+  ]
+approach: "The project combined a physical quadcopter platform with attitude control and a vision-based approach to indoor positioning."
+results: "The platform achieved stable tethered flight. The indoor positioning work was published in Springer MMRMS."
+results_placeholder: "Control plots and indoor-localization evaluation"
+links: []
+layout: "portfolio-project"
+portfolio: true
+img: "/assets/img/publication_preview/autonomous_drone.gif"
+image_alt: "Quadcopter flying outdoors near two people, with a building in the background."
+video: ""
+poster: ""
+result_image: ""
+result_image_alt: "Quadcopter flying outdoors near two people, with a building in the background."
 ---
-
-Collaborative project to design and build an **autonomous quadcopter** from the ground up as part of undergraduate coursework in robotics and automation.
-
-**Key contributions:**
-
-- Assembled the mechanical frame, motor mounts, and power distribution system
-- Integrated flight controller firmware with IMU and GPS modules for stable autonomous flight
-- Gained foundational experience in aerial robotics, PID tuning, and embedded systems
-
-**Stack:** Arduino, PID control, embedded C

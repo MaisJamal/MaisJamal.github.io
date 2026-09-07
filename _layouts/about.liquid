@@ -40,6 +40,19 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.featured_projects %}
+      <section class="portfolio portfolio-home" aria-labelledby="home-projects">
+        <h2 id="home-projects" class="portfolio-section-title">Selected projects</h2>
+        {% assign highlights = site.projects | where: 'portfolio', true | where: 'featured', true | sort: 'importance' %}
+        {% for project in highlights %}
+          <a class="portfolio-extra" href="{{ project.url | relative_url }}"
+            ><strong>{{ project.title }}</strong><span>{{ project.description }}</span><span aria-hidden="true">↗</span></a
+          >
+        {% endfor %}
+        <p class="mt-3"><a class="portfolio-link" href="{{ '/projects/' | relative_url }}">Explore all projects →</a></p>
+      </section>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

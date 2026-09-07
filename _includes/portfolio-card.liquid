@@ -1,0 +1,20 @@
+{% assign project = include.project %}
+<article class="portfolio-card {% if include.hero %}portfolio-card-featured{% endif %}">
+  <div class="portfolio-card-visual">{% include portfolio-media.liquid project=project %}</div>
+  <div class="portfolio-card-body">
+    <p class="portfolio-eyebrow">{{ project.category }}</p>
+    <h3>
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+    </h3>
+    <p>{{ project.description }}</p>
+    <p class="portfolio-result">{{ project.result }}</p>
+    <ul class="portfolio-tags" aria-label="Technologies">
+      {% for tag in project.technologies %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    <a class="portfolio-link" href="{{ project.url | relative_url }}"
+      >View project <span aria-hidden="true">↗</span><span class="sr-only">: {{ project.title }}</span></a
+    >
+  </div>
+</article>

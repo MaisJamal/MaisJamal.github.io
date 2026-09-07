@@ -1,0 +1,31 @@
+{% assign item = include.project %}
+{% if include.playable and item.video != blank %}
+  <video
+    class="portfolio-media"
+    controls
+    preload="metadata"
+    playsinline
+    {% if item.poster != blank %}
+      poster="{{ item.poster | relative_url }}"
+    {% endif %}
+    aria-label="{{ item.title | escape }} demonstration"
+  >
+    <source src="{{ item.video | relative_url }}" type="video/mp4">
+    <a href="{{ item.video | relative_url }}">Download the demonstration video</a>
+  </video>
+{% elsif item.img != blank %}
+  <img
+    class="portfolio-media"
+    src="{{ item.img | relative_url }}"
+    alt="{{ item.image_alt | default: item.title | escape }}"
+    loading="lazy"
+    width="960"
+    height="600"
+  >
+{% else %}
+  <div class="portfolio-placeholder">
+    <span class="portfolio-placeholder-mark" aria-hidden="true">＋</span>
+    <strong>{{ item.placeholder }}</strong>
+    <span>Visual coming soon</span>
+  </div>
+{% endif %}
