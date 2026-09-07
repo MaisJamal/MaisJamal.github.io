@@ -79,10 +79,11 @@
     overflow: hidden;
     background: var(--global-card-bg-color);
     margin-bottom: 0;
+    min-width: 0;
   }
   .portfolio-card-featured {
     display: grid;
-    grid-template-columns: 1.1fr 1fr;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
     margin-bottom: 2.5rem;
   }
   .portfolio-card-body {
@@ -100,17 +101,24 @@
   .portfolio-card-visual {
     background: var(--portfolio-wash);
     min-width: 0;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
   .portfolio-media {
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 8 / 5;
+    max-width: 100%;
+    max-height: 360px;
     object-fit: contain;
     background: var(--portfolio-wash);
   }
   .portfolio-placeholder {
     min-height: 230px;
+    width: 100%;
     height: 100%;
     padding: 2rem;
     display: flex;
@@ -286,4 +294,70 @@ html[data-theme="dark"] .portfolio {
   aspect-ratio: 16 / 9;
   object-fit: contain;
   background: #101820;
+}
+
+// Keep real assets within the same visual bounds as the placeholder design.
+.portfolio {
+  .portfolio-card-visual .portfolio-media {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: contain;
+  }
+  .portfolio-card-featured .portfolio-card-visual {
+    height: 100%;
+    min-height: 300px;
+  }
+  .portfolio-demo {
+    min-width: 0;
+  }
+  > .portfolio-demo {
+    max-width: 640px;
+    margin: 0 auto 2rem;
+  }
+  .portfolio-demo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .portfolio-demo-grid .portfolio-demo {
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid var(--portfolio-border);
+    border-radius: 10px;
+    background: var(--global-card-bg-color);
+  }
+  .portfolio-demo-grid .portfolio-scenario-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    max-height: 260px;
+    object-fit: contain;
+  }
+  .portfolio-result-figure {
+    max-width: 760px;
+    margin: 2rem auto;
+  }
+  .portfolio-detail-grid > *,
+  .portfolio-card-body {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+  &.portfolio-detail h2 {
+    font-size: 1.5rem;
+  }
+  &.portfolio-detail li,
+  &.portfolio-detail p {
+    line-height: 1.75;
+  }
+}
+@media (max-width: 640px) {
+  .portfolio .portfolio-demo-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .portfolio .portfolio-card-featured .portfolio-card-visual {
+    height: 230px;
+    min-height: 0;
+  }
 }

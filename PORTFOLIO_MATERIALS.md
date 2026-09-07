@@ -63,3 +63,15 @@ Demo entries can contain `video` and an optional `poster`, or `img` and `image_a
 ## Quadcopter flight clip added
 
 The quadcopter card and detail page now use the existing animated flight clip at `assets/img/publication_preview/autonomous_drone.gif` (400 × 225 pixels). It is reused directly without duplicating the asset. The caption describes the outdoor flight demonstration; control plots and indoor-localization evaluation remain to be added.
+
+The real Kia Soul driving video is now the main player directly below the project introduction (`video`), with a visible title and direct video link. The three other maneuver videos remain in `demos`. The photo remains the project-card image. The main player loads metadata to show the actual video frame rather than reusing the still photograph.
+
+## Additional vehicle, cleaning robot, and bridge materials
+
+The car card now uses `assets/img/projects/autonomous-car/kia-soul.png`. Both car photos appear in a compact `gallery` on the vehicle page; the main real-driving video remains directly below the introduction.
+
+The cleaning robot uses `assets/img/projects/cleaning-robot/mais-and-cleaning-robot.png` on its card and detail page. Its caption identifies the indoor setting accurately.
+
+Three original bridge GIFs are stored under `assets/img/projects/carla-apollo/`: ground-truth obstacles, red-light stopping, and a signalized T-intersection. They use the existing compact `demos` grid with links to the original animations. The ground-truth demo also replaces the bridge card placeholder.
+
+For additional photographs, use a `gallery` list with `title`, `img`, `image_alt`, and `caption`. Galleries reuse the responsive demo-grid sizing, with contained images and links to full-resolution originals.

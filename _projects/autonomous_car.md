@@ -11,7 +11,7 @@ technologies:
   - Frenet
   - C++
 placeholder: Kia Soul · vehicle and road testing
-media_note: With the Kia Soul autonomous vehicle used for on-vehicle development and validation.
+media_note: Autonomous driving footage recorded on the real Kia Soul vehicle.
 result: Validated across 50+ driving scenarios
 problem: A vehicle planner must translate driving decisions into smooth, collision-free trajectories and operate with real perception and control
   systems.
@@ -29,20 +29,15 @@ results_placeholder: Scenario breakdown and measured performance
 links: []
 layout: portfolio-project
 portfolio: true
-img: /assets/img/projects/autonomous-car/mais-and-kia-soul.png
-image_alt: Mais Jamal beside the sensor-equipped Kia Soul autonomous vehicle in a garage.
-video: ""
+img: /assets/img/projects/autonomous-car/kia-soul.png
+image_alt: Side view of the sensor-equipped Kia Soul autonomous vehicle outdoors.
+video: /assets/video/projects/autonomous-car/kia-soul-autonomous-driving.mp4
 poster: ""
 result_image: ""
 result_image_alt: ""
 show_cover_with_demos: true
-demos_heading: Autonomous driving demonstrations
+demos_heading: Other autonomous maneuver demonstrations
 demos:
-  - title: Kia Soul autonomous driving
-    label: Real vehicle
-    video: /assets/video/projects/autonomous-car/kia-soul-autonomous-driving.mp4
-    poster: /assets/img/projects/autonomous-car/mais-and-kia-soul.png
-    caption: Autonomous driving footage recorded on the real Kia Soul vehicle.
   - title: Behavior-tree overtaking
     label: Maneuver algorithm demo
     video: /assets/video/projects/autonomous-car/behavior-tree-overtaking.mp4
@@ -55,4 +50,14 @@ demos:
     label: Maneuver algorithm demo
     video: /assets/video/projects/autonomous-car/rl-autonomous-parking.mp4
     caption: A demonstration of reinforcement-learning-based autonomous parking.
+video_title: Real vehicle · Kia Soul driving autonomously
+gallery:
+  - title: Kia Soul autonomous vehicle
+    img: /assets/img/projects/autonomous-car/kia-soul.png
+    image_alt: Side view of the sensor-equipped Kia Soul autonomous vehicle outdoors.
+    caption: The Kia Soul platform used for autonomous driving development.
+  - title: Working with the vehicle
+    img: /assets/img/projects/autonomous-car/mais-and-kia-soul.png
+    image_alt: Mais Jamal beside the Kia Soul autonomous vehicle in a garage.
+    caption: With the Kia Soul during vehicle development.
 ---
