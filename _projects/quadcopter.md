@@ -19,7 +19,9 @@ contributions:
 approach: "The project combined a physical quadcopter platform with attitude control and a vision-based approach to indoor positioning."
 results: "The platform achieved stable tethered flight. The indoor positioning work was published in Springer MMRMS."
 results_placeholder: "Control plots and indoor-localization evaluation"
-links: []
+links:
+  - label: "Bachelor's thesis (PDF)"
+    url: "/assets/pdf/Drone_Project_2017.pdf"
 layout: "portfolio-project"
 portfolio: true
 img: "/assets/img/publication_preview/autonomous_drone.gif"
