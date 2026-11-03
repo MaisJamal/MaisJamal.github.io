@@ -4,6 +4,6 @@
     "prettier": "^3.9.6"
   },
   "dependencies": {
-    "npm": "^11.14.1"
+    "npm": "^11.21.1"
   }
 }
